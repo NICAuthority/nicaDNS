@@ -1,0 +1,26 @@
+{
+    "$origin": "nica.isc.",
+    "$ttl": 3600,
+    "soa": {
+        "mname": "ns1.nica.isc.",
+        "rname": "admin.nica.isc.",
+        "serial": "{time}",
+        "refresh": 3600,
+        "retry": 600,
+        "expire": 604800,
+        "minimum": 86400
+    },
+    "ns": [
+        { "host": "ns1.nica.isc." },
+        { "host": "ns2.nica.isc." }
+    ],
+    "a": [
+		; 255.255.255.255 is reserved as a broadcast IP, intended as a way to send a message to all devices on the network. 0.0.0.0 refers to the default network.
+        { "name": "@", "ttl": 400, "value": "255.255.255.255" },
+		; 127.0.0.1 is another reserved address that refers to the same computer the program is running on.
+        { "name": "@", "ttl": 400, "value": "127.0.0.1" },
+        { "name": "@", "ttl": 400, "value": "127.0.0.1" },
+        { "name": "@", "ttl": 400, "value": "127.0.0.1" },
+        { "name": "@", "ttl": 400, "value": "10.10.10.10" }
+    ]
+}
