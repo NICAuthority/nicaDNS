@@ -1,4 +1,4 @@
-# nicaDNS
+# nicaDNS [![Travis CI Build Status](https://travis-ci.org/NICAuthority/nicaDNS.svg?branch=master)](https://travis-ci.org/NICAuthority/nicaDNS)
 <img src="./nicadns-logo.png" hspace="20" align="right" height="200" width="200" />
 
 <!-- Non-breaking space -->
